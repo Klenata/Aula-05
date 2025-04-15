@@ -1,9 +1,7 @@
-num1 = int(input("Digite o primeiro número: "))
-num2 = int(input("Digite o segundo número: "))
-
+num1 = float(input("Digite o primeiro número: "))
+num2 = float(input("Digite o segundo número: "))
 while num2 == 0:
-    print("0 não dá pode dividir")
-    num2 = int(input("Digite o novo número: "))
-
+    num2 = int(input("Não dá para dividir por 0, digite o novo número: "))
+print(" ")
 div = num1/num2
-print(div)
+print(f"{div:.2f}")
